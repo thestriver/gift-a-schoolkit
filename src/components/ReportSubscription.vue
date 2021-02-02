@@ -5,7 +5,7 @@
         <div class="w-full lg:w-1/2 mb-8 text-center lg:text-left">
           <h2 class="text-3xl mb-4 lg:text-4xl font-bold font-heading">
             <span>Our Monthly</span>
-            <span class="text-green-600">Progress</span>
+            <span class="text-green-600 pl-3 pr-3">Progress</span>
             <span>Report</span>
           </h2>
           <p class="text-blueGray-400">Every month we release our transparency report complete with our activities and how your sponsored kits are disbursed.

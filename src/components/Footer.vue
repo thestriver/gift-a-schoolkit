@@ -6,7 +6,7 @@
                 <img :src="logo" alt="GASK logo" width="260">
         </a>
       </router-link>
-      <p class="text-sm text-gray-500 lg:ml-40 mr-40 sm:pl-4 sm:py-2 sm:mt-0 mt-4">© 2021 Created with love by ❤️
+      <p class="text-sm text-gray-500 lg:ml-40 mr-40 sm:pl-4 sm:py-2 sm:mt-0 mt-4">© 2021 Created with ❤️ by
         <a href="https://steemit.com/@infovore" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@infovore</a></p>
       <nav class="flex flex-wrap text-sm text-gray-500">
         <router-link to="/"><a class="mr-5 hover:text-gray-900">Terms of use</a></router-link>

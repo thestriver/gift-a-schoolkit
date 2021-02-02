@@ -1,5 +1,5 @@
 <template>
-    <section class="py-20 text-left">
+    <section class="py-20 text-left" id="giftkit">
     <div class="container px-4 mx-auto">
       <div class="flex flex-wrap -mx-8">
         <div class="w-full lg:w-1/2 px-8">

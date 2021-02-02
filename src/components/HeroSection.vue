@@ -4,11 +4,12 @@
             <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
                 <div class="text-center lg:w-2/3 w-full">
                     <h1 class="title-font lg:text-6xl text-5xl mb-6 font-medium text-gray-900 uppercase">Gift A School Kit <br> TODAY</h1>
-                    <p class="mb-8 leading-relaxed font-medium ">Gift A School Kit is an indie project working towards ensuring underpriviledged school kids get access to basic educational materials.</p>
+                    <p class="mb-8 leading-relaxed font-medium ">Gift A School Kit is an indie social project working towards ensuring underpriviledged school kids get access to basic educational materials.</p>
                     <div class="flex justify-center">
-                        <button class="bg-green-500 text-white active:bg-green-600 font-bold uppercase text-base px-20 py-4 rounded shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1" type="button" style="transition: all .15s ease">
-                Gift A Kit Now
-                </button>
+                      <router-link to="/GiftKit#giftkit">
+                        <button class="bg-green-500 text-white active:bg-green-600 font-bold uppercase text-base px-20 py-4 rounded shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1" type="button" style="transition: all .15s ease">Gift A Kit Now
+                        </button>
+                      </router-link>
                     </div>
                 </div>
             </div>
