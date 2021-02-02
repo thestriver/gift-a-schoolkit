@@ -1,18 +1,36 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" class="pl-64">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <NavBar />
+    <HeroSection />
+    <GiftKit />
+    <Progress />
+    <CorpSponsors />
+    <ReportSubscription />
+    <Footer />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HelloWorld from '@/components/HelloWorld.vue' // @ is an alias to /src
+// import HelloWorld from '@/components/HelloWorld.vue' // @ is an alias to /src
+import NavBar from '@/components/NavBar.vue'
+import HeroSection from '@/components/HeroSection.vue'
+import GiftKit from '@/components/GiftKit.vue'
+import Progress from '@/components/Progress.vue'
+import CorpSponsors from '@/components/CorpSponsors.vue'
+import ReportSubscription from '@/components/ReportSubscription.vue'
+import Footer from '@/components/Footer.vue'
 
 export default defineComponent({
   name: 'Home',
   components: {
-    HelloWorld
+    NavBar,
+    HeroSection,
+    GiftKit,
+    Progress,
+    CorpSponsors,
+    ReportSubscription,
+    Footer
   }
 })
 </script>
